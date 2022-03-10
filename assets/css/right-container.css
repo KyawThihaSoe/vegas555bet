@@ -1,0 +1,221 @@
+.right-main-container {
+    margin-right: 15px;
+}
+
+.hd-color {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--box-2-color);
+    padding: 20px;
+}
+
+.right-container {
+    position:sticky;
+    width: 360px;
+    top: 70px;
+}
+
+.activergb {
+    color: var(--first-color);
+    position: relative;
+    /* border-bottom: 3px solid var(--first-color); */
+}
+
+.activergb .rg-ctli-circle {
+    background-color: var(--first-color);
+}
+
+.activergb::before {
+    content: "";
+    width: 180px;
+    position: absolute;
+    height: 6%;
+    bottom: 0;
+    background-color: var(--first-color);
+}
+
+.rg-cthd-container {
+    color: var(--first-color);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rg-ct-container {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--left-box-color);
+    color: #fff;
+}
+
+.rg-ft1 {
+    color: var(--first-color);
+}
+
+.rg-selemain-container {
+    padding: 10px;
+}
+
+.rg-sele-color {
+    border-radius: 3px;
+    width: 90px;
+    height: 35px;
+    background-color: var(--left-box-color);
+}
+
+.rg-sele-container {
+    border-radius: 5px;
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.rg-sele-lt {
+    width: 12px;
+    border-right: 1px solid #262626;
+    height: 96px;
+}
+
+.rg-footer-container {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: var(--box-2-color);
+    text-align: center;
+    padding: 15px;
+}
+
+.rg-ft-button {
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 20px;
+    margin: auto;
+    width: 100px;
+    background-color: var(--box-3-color);
+    color: #fff;
+    padding: 10px;
+}
+.rg-ft-button:hover {
+    background-color: var(--first-color);
+}
+
+.rg-ft2 {
+    margin-bottom: 15px;
+}
+
+.football-text {
+    cursor: pointer;
+}
+
+.football-icon {
+    padding-right: 10px;
+}
+
+.football-icon svg {
+    width: 22px;
+}
+
+.arrow-icon i {
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+
+.ft-header span {
+    color: var(--first-color);
+    font-weight: 700;
+}
+
+.ft-match {
+    display: flex;
+    align-items: center;
+}
+
+.ft-match span {
+    cursor:default;
+}
+
+.ft-match span:last-child {
+    font-weight: 500;
+}
+
+.uefa-content div {
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.uefa-al-content div {
+    cursor: pointer;
+    color: var(--first-color);
+}
+
+.uefa-lt-content span {
+    cursor: default;
+}
+
+.ft-footer {
+    cursor: pointer;
+}
+
+.ft-footer div {
+    cursor: pointer;
+}
+
+.rg-ctli {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rg-ctli-circle {
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--panel-1,#000);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+.rg-ctbe {
+    cursor: pointer;
+}
+
+.rg-ft-button {
+    cursor: pointer;
+}
+
+.rg-ctli-bd {
+    position: relative;
+}
+
+.rg-ctli-bd:after {
+    content: "";
+    width: 2px;
+    position: absolute;
+    height: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    background: var( --panel-3,#272727);
+}
+
+.rg-login-container {
+    background-color: #333232;
+    height: 50px;
+}
+
+.rg-sele  span{
+    color: var(--first-color);
+}
+
+.ft-none {
+    display: none;
+}

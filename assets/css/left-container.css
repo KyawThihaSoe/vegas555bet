@@ -1,0 +1,411 @@
+.caro-dots-container {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin: 5px 0px;
+}
+.mhs-item svg {
+  fill: #777;
+}
+.caro-dots {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.caro-dots-active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.mhscroll {
+  display: flex;
+  gap: 20px;
+  background-color: var(--box-2-color);
+  padding: 10px 20px;
+  width: 600px;
+  overflow-x: scroll;
+}
+
+.mhs-item img {
+  display: block;
+  margin: auto;
+  width: 33px;
+  height: 33px;
+}
+
+
+.mhscroll-text {
+  color: var(--first-color);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.eespe-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 2px;
+  background-color: #191919;
+  width: 749px;
+}
+.eespe-box {
+  display: flex;
+  justify-content: space-between;
+  width: 363px;
+  gap: 4px;
+  padding: 10px;
+  background-color: var(--main-background-color);
+  color: var(--first-color);
+}
+
+.ft-rg-content div {
+  color: var(--first-color);
+}
+
+.ft-rg-content div i {
+  color: var(--first-color);
+}
+
+.ft-content span {
+  color: var(--first-color);
+}
+
+.eebet {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: var(--box-3-color);
+}
+.eetime {
+  opacity: 0.8;
+  padding: 10px 0px;
+}
+.eesright{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.arricn {
+  font-size: 18px;
+  color: #272727;
+  cursor: default;
+}
+.arricn-active{
+  color: #DFA550;
+}
+.arricn-active:hover{
+  cursor: pointer;
+}
+
+.left-container {
+  width: 100%;
+  margin-right: 15px;
+}
+
+.lt-title {
+  background-color: var(--box-2-color);
+  padding: 10px;
+}
+
+.pupular-icon i {
+  font-size: 25px;
+}
+
+.special-icon i {
+  font-size: 25px;
+}
+
+.mg-0 {
+  margin-bottom: 0px;
+}
+
+.lt-title h1 {
+  /* color: #fff; */
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--first-color);
+}
+
+.lt-title span {
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.bh {
+  font-weight: bold;
+}
+.lt-title div {
+  color: #fff;
+  cursor: pointer;
+}
+
+.lt-odds {
+  background: var(--panel-2, #191919);
+  padding: 10px;
+}
+
+.lt-odds div {
+  color: #fff;
+}
+
+nav {
+  background: var(--panel-2, #191919);
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-weight: 500;
+  color: var(--first-color);
+  color: #fff;
+}
+
+nav div {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-weight: 500;
+  color: var(--first-color);
+  color: #fff;
+}
+
+.live-button {
+  display: inline-block;
+  height: 21px;
+  line-height: 21px;
+  min-width: 44px;
+  border-radius: 3px;
+  background-color: var(--in-play, #2aaa01);
+  padding: 0 9px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.match-container {
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--panel-1, #000);
+}
+
+.ft-match {
+  background-color: var(--panel-1, #000);
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid var(--first-color);
+}
+
+.ft-header {
+  border-top: 1px solid var(--first-color);
+  cursor: pointer;
+  border-bottom: 1px solid var(--first-color);
+  text-align: center;
+  background: var(--panel-2, #191919);
+  padding: 10px;
+  color: #fff;
+}
+
+.ft-content {
+  cursor: pointer;
+  background: var(--left-box-color);
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft-rg-content {
+  width: 155px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ft-arrow-icon i {
+  float: right;
+}
+
+.uefa-content-container {
+  border-top: 1px solid var(--first-color);
+}
+
+.uefa-content a {
+  cursor: pointer;
+  color: #fff;
+  background: var(--panel-2, #191919);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.uefa-lt-content {
+  color: var(--first-color);
+  display: flex;
+  align-items: center;
+}
+
+.uefa-lt-container {
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: var(--left-box-color);
+  padding-left: 14px;
+  padding-right: 4px;
+}
+
+.uefa-lt-content span {
+  padding-right: 18px;
+}
+
+.uefa-box-container {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.uefa-box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: var(--box-3-color);
+  border-radius: 4px;
+  margin-left: 3px;
+}
+
+.ft-footer {
+  border-top: 1px solid var(--first-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+  background-color: var(--panel-1, #000);
+}
+
+.ft-footer-live {
+  color: var(--first-color);
+}
+
+.uefa-mkt {
+  color: #a09b9b;
+}
+
+.color-x {
+  font-size: 11px;
+}
+
+.rg-ft2 {
+  color: var(--first-color);
+}
+
+.star-icon {
+  margin-right: 12px;
+}
+
+.star-icon svg {
+  width: 24px;
+}
+
+.ft-container {
+  box-shadow: 0 -5px 5px -5px #333;
+}
+
+.lt-flex {
+  align-items: center;
+  display: flex;
+}
+
+.mat-cal {
+  font-size: 20px;
+  padding-right: 12px;
+}
+
+.mat-odd {
+  font-size: 20px;
+  padding-right: 12px;
+}
+
+.ft-footer-top {
+  margin-top: 22px;
+}
+
+.ct-bd {
+  position: relative;
+}
+
+.ct-bd:after {
+  content: "";
+  width: 2px;
+  position: absolute;
+  height: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  background: var(--panel-3, #272727);
+}
+
+.active-bod {
+  border-bottom: 2px solid var(--first-color);
+  color: var(--first-color);
+}
+
+.uefa-banner {
+  position: relative;
+}
+
+.uefa-banner img {
+  width: 100%;
+}
+
+.uefa-banner-content {
+  border-radius: 5px;
+  text-align: center;
+  width: 320px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.452);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.uefa-bn-title {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.uefa-bn-desp-con {
+  color: var(--first-color);
+  font-size: 15px;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+.uefa-bn-time {
+  padding-bottom: 7px;
+  padding-top: 7px;
+}

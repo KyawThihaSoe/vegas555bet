@@ -1,0 +1,8 @@
+.live-main {
+    display: flex;
+    align-items: center;
+}
+
+.time-svg svg {
+    fill: var(--first-color);
+}

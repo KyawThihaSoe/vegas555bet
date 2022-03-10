@@ -1,0 +1,579 @@
+.container_2 {
+    width: 100%;
+}
+
+.pl-24{
+    padding-left: 210px;
+}
+.left-sidebar{
+    padding-left: 10px;
+    margin-top: 65px;
+    width:  210px;
+    height: 100vh;
+    padding-top: 10px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    
+}
+
+.left-sidebar_show {
+    display: flex;
+   
+  
+}
+
+
+.nav-scrollbar {
+       
+        width: 190px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    
+     
+        height: 100vh;
+        padding-right: 10px;
+       padding-bottom: 20px;
+    
+}
+
+.aCbuttonsWrapper {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.aCbuttonsWrapper button:hover {
+    background-color: var(--first-color);
+    color: #fff;
+}
+
+.aCbuttonsWrapper button{
+    border: 2px solid var(--first-color);
+    border-radius: 50px;
+    background-color: transparent;
+    color: var(--first-color);
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    font-family: "888bold",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 13px 20px 13px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.aCchallenges svg{
+    width: 50%;
+}
+
+.aCchallenges {
+    border: 2px solid #ddd;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-right: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.aCchallenges:hover {
+    border: 2px solid var(--first-color);
+}
+
+.aCchallenges:hover .aCchallengesTitle {
+    color: var(--first-color);
+}
+
+.aCchallenges:hover svg {
+    fill: var(--first-color)
+}
+
+.aCchallengesTitle {
+    color: var(--fill-color);
+    font-size: 11px;
+    font-weight: 500;
+}
+.aCdashbordBox {
+    background: var(--left-box-color);
+    border-radius: 5px;
+    width: 100%;
+    padding: 20%;
+    position: relative;
+    margin-top: 30px;
+
+}
+.aChelpLink svg{
+    width: 14px;
+    height: 14px;
+}
+.aCnotificationsBox {
+    margin-top: 1rem;
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+}
+.aCprofileBox svg {
+    height: 64px;
+    width: 64px;
+}
+
+/* .aCprofileDetails {
+    margin-bottom: 5rem; 
+    z-index: 16;
+} */
+.aCprofilePic {
+ display: block;
+}
+
+.aCprofileBox {
+    position: absolute;
+    left: 53%;
+    top: -30px;
+    transform: translateX(-50%);
+}
+
+.aCrewards:hover {
+    border: 2px solid var(--first-color);
+}
+
+.aCrewards:hover .aCrewardsTitle {
+    color: var(--first-color);
+}
+
+.aCrewards:hover svg {
+    fill: var(--first-color);
+}
+
+.aCrewards {
+    border: 2px solid #ddd;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.aCrewards svg {
+    width: 65%;
+}
+
+.aCrewardsTitle {
+    color: var(--fill-color);
+    font-size: 11px;
+    font-weight: 500;
+}
+.mb-3{
+margin-bottom: 80px;
+}
+
+.left-sidebar-item{
+   
+    /* border-bottom: 1px solid #303030;
+    margin: 0px 10px; */
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+    width: calc(100% - 10px);
+   
+}
+.left-sidebar-item:last-child{
+    border: none;
+   
+}
+.left-sidebar-item a{
+   
+    align-items: center;
+    color: #717171;
+    cursor: pointer;
+    display: flex;
+    font-family: "888demibold",Arial,sans-serif;
+    font-size: 14px;
+    height: 38px;
+  
+    line-height: 38px;
+    text-decoration: none;
+    transition: color .3s;
+    width: 100%;
+}
+
+
+.left-sidebar a:hover  span {
+    color: var(--first-color);
+} 
+.left-sidebar a:hover svg{
+    fill: var(--first-color);
+}
+
+
+.left-sidebar-item span {
+    font-size: 12px;
+    color: var(--fill-color);
+
+}
+
+.left-sidebar-item svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+.card-item{
+   
+    /* border-bottom: 1px solid #303030;
+    margin: 0px 10px; */
+    border-bottom: 1px solid #303030;
+    margin: 0 auto;
+    position: relative;
+    width: calc(100% - 10px);
+   
+}
+.card-item  span {
+    font-size: 12px;
+    color: var(--fill-color);
+
+}
+.cat-item a{
+   
+    align-items: center;
+    border-bottom: 1px solid #1e1e1e;
+    color: #717171;
+    cursor: pointer;
+    display: flex;
+    font-family: "888demibold",Arial,sans-serif;
+    font-size: 14px;
+    height: 38px;
+  
+    line-height: 38px;
+    text-decoration: none;
+    transition: color .3s;
+    width: 100%;
+}
+.cat-item svg{
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+.cat-item a:hover span{
+      color: var(--first-color);
+}
+.cat-item a:hover svg{
+    fill: var(--first-color);
+}
+
+
+.home {
+    background: var(--left-box-color);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 2rem;
+  
+}
+
+.Live-button {
+    margin-top: 1rem;
+}
+
+.Live-button a {
+    display: flex;
+    align-items: center;
+}
+
+.Live-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.Live-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.odds-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.odds-options svg {
+    width: 14px;
+    height: 14px;
+}
+.promotions-button {
+    margin-top: 1rem;
+}
+
+.promotions-button a {
+    display: flex;
+    align-items: center;
+}
+
+.promotions-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.promotions-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+.Recommendations-button {
+    margin-top: 1rem;
+}
+
+.Recommendations-button a {
+    display: flex;
+    align-items: center;
+}
+
+.Recommendations-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.Recommendations-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+.headerRightCTA .sportIcon {
+    fill: var(--first-color);
+}
+.Upfor8-button {
+    margin-top: 1rem;
+}
+
+.Upfor8-button a {
+    display: flex;
+    align-items: center;
+}
+
+.Upfor8-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.Upfor8-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.Upfor8-span {
+    margin-right: 2rem;
+}
+
+.Categories {
+    background: #272727;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 70px;
+}
+
+.specials888-button a {
+    display: flex;
+    align-items: center;
+}
+
+.specials888-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+    width: 50px;
+}
+
+.specials888-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.VirtualSports-button {
+    margin-top: 1rem;
+}
+
+.VirtualSports-button a {
+    display: flex;
+    align-items: center;
+}
+
+.VirtualSports-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.VirtualSports-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.Football-button {
+    margin-top: 1rem;
+}
+
+.Football-button a {
+    display: flex;
+    align-items: center;
+}
+
+.Football-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.Football-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.HorseRacing-button {
+    margin-top: 1rem;
+}
+
+.HorseRacing-button a {
+    display: flex;
+    align-items: center;
+}
+
+.HorseRacing-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.HorseRacing-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.Tennis-button {
+    margin-top: 1rem;
+}
+
+.Tennis-button a {
+    display: flex;
+    align-items: center;
+}
+
+.Tennis-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.Tennis-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.SportsAZ-button {
+    margin-top: 1rem;
+}
+
+.SportsAZ-button a {
+    display: flex;
+    align-items: center;
+}
+
+.SportsAZ-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+}
+
+.SportsAZ-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.Blog {
+    background: #272727;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+.Blog-button a {
+    display: flex;
+    align-items: center;
+}
+
+.Blog-button span {
+    font-size: 12px;
+    color: var(--fill-color);
+    width: 50px;
+}
+
+.Blog-button svg {
+    margin-left: 1.5rem;
+    width: 30%;
+    fill: var(--fill-color);
+}
+
+.Time-button a {
+    display: flex;
+    align-items: center;
+}
+
+.Time-button span {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    width: 50px;
+    margin-left: 1.5rem;
+}
+
+.Time {
+    background: #000;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 10rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+.vb {
+    margin-top: .4rem;
+    border-bottom: 1px solid #565656;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+.vl {
+    border-left: 1px solid var(--fill-color);
+    height: 30px;
+    margin-right: 15px;
+}
+
+.nav-scrollbar::-webkit-scrollbar {
+    width: 5px;
+  }
+  .nav-scrollbar::-webkit-scrollbar-thumb {
+   
+    border-radius: 10px;
+  }
+  /* Track */
+  .nav-scrollbar::-webkit-scrollbar-track {
+  display: none;
+
+  }
+   
+  /* Handle */
+  .nav-scrollbar::-webkit-scrollbar-thumb {
+    background: #aaa; 
+  }
+  
+  /* Handle on hover */
+  .nav-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #777; 
+  }
