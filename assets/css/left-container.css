@@ -75,6 +75,14 @@
   color: var(--first-color);
 }
 
+.ft-content div {
+  color: var(--first-color);
+}
+
+.live-content div:last-child {
+  color: var(--first-color);
+}
+
 .eebet {
   width: 50px;
   height: 50px;
@@ -157,7 +165,7 @@
 }
 
 nav {
-  background: var(--panel-2, #191919);
+  background: var(--four-color);
   display: flex;
   justify-content: space-around;
 }
@@ -170,7 +178,6 @@ nav a {
   display: block;
   font-weight: 500;
   color: var(--first-color);
-  color: #fff;
 }
 
 nav div {
@@ -185,13 +192,17 @@ nav div {
   color: #fff;
 }
 
+.football-text-color {
+  color: var(--first-color);
+}
+
 .live-button {
   display: inline-block;
   height: 21px;
   line-height: 21px;
   min-width: 44px;
   border-radius: 3px;
-  background-color: var(--in-play, #2aaa01);
+  background-color: var(--first-color);
   padding: 0 9px;
   color: #fff;
   font-weight: 600;
@@ -203,15 +214,19 @@ nav div {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  background-color: var(--panel-1, #000);
+  background-color: var(--box-2-color);
 }
 
 .ft-match {
-  background-color: var(--panel-1, #000);
+  background-color: var(--box-2-color);
   color: #fff;
   margin-top: 10px;
   padding: 10px;
   border-top: 1px solid var(--first-color);
+}
+
+.ft-match span {
+  color: var(--first-color);
 }
 
 .ft-header {
@@ -219,7 +234,7 @@ nav div {
   cursor: pointer;
   border-bottom: 1px solid var(--first-color);
   text-align: center;
-  background: var(--panel-2, #191919);
+  background: var(--box-2-color);
   padding: 10px;
   color: #fff;
 }
@@ -250,7 +265,7 @@ nav div {
 .uefa-content a {
   cursor: pointer;
   color: #fff;
-  background: var(--panel-2, #191919);
+  background: var(--box-2-color);
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -302,8 +317,8 @@ nav div {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  color: #fff;
-  background-color: var(--panel-1, #000);
+  color: var(--first-color);
+  background-color: var(--box-2-color);
 }
 
 .ft-footer-live {
@@ -365,7 +380,7 @@ nav div {
   top: 50%;
   transform: translateY(-50%);
   right: 0px;
-  background: var(--panel-3, #272727);
+  background: var(--first-color);
 }
 
 .active-bod {
